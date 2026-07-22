@@ -1,0 +1,12 @@
+# Ignorar carpetas de datasets
+gold/
+gold_cellular_patches/
+
+# Ignorar modelos exportados y binarios
+*.onnx
+models/*.onnx
+
+# Ignorar archivos temporales
+__pycache__/
+.venv/
+.DS_Store

@@ -1,0 +1,12 @@
+# Framework principal y visión por computador
+torch
+torchvision
+
+# Procesamiento de imágenes y datos
+numpy
+pillow
+
+# Exportación y ejecución de modelos ONNX
+onnx
+onnxruntime
+onnxscript
