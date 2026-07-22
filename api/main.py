@@ -39,7 +39,7 @@ from PIL import Image
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Ruta al modelo ONNX
-MODEL_PATH: Path = Path(__file__).parent / "resnet50_model.onnx"
+MODEL_PATH: Path = Path(__file__).parent / "models" / "resnet50_model.onnx"
 
 # Dimensiones de entrada
 IMG_HEIGHT: int = 224
