@@ -1,0 +1,26 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# AmazonCervix-AI — Dependencias de la API de Inferencia
+# ─────────────────────────────────────────────────────────────────────────────
+# Instalar con:
+#   pip install -r requirements.txt
+#
+# Para GPU (CUDA 11.x):
+#   pip install onnxruntime-gpu
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Servidor ASGI
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# Motor de inferencia ONNX (CPU)
+# Reemplazar por onnxruntime-gpu==1.20.1 si hay GPU disponible
+onnxruntime
+
+# Procesamiento de imágenes
+Pillow==11.0.0
+
+# Álgebra lineal (pre-instalado en la mayoría de entornos, se incluye por completitud)
+numpy>=1.26,<3.0
+
+# Tipos de Python (para compatibilidad con Python 3.9)
+typing-extensions>=4.9
