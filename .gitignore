@@ -1,12 +1,8 @@
-# Ignorar carpetas de datasets
+# Mantener excluidas solo las carpetas pesadas de datos
 gold/
 gold_cellular_patches/
 
-# Ignorar modelos exportados y binarios
-*.onnx
-models/*.onnx
-
-# Ignorar archivos temporales
+# Archivos temporales
 __pycache__/
 .venv/
 .DS_Store
